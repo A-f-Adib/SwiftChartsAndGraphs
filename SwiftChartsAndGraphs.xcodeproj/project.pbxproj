@@ -22,6 +22,7 @@
 		74D55B682D2DBC0E00C841AD /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D55B672D2DBC0E00C841AD /* PieChartView.swift */; };
 		74D55B6B2D2DCA0500C841AD /* BookCatagory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D55B6A2D2DCA0500C841AD /* BookCatagory.swift */; };
 		74D55B6D2D2DCB2F00C841AD /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D55B6C2D2DCB2F00C841AD /* Author.swift */; };
+		74D55B6F2D2DCCF500C841AD /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D55B6E2D2DCCF500C841AD /* Book.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		74D55B672D2DBC0E00C841AD /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
 		74D55B6A2D2DCA0500C841AD /* BookCatagory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCatagory.swift; sourceTree = "<group>"; };
 		74D55B6C2D2DCB2F00C841AD /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		74D55B6E2D2DCCF500C841AD /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			children = (
 				74D55B6A2D2DCA0500C841AD /* BookCatagory.swift */,
 				74D55B6C2D2DCB2F00C841AD /* Author.swift */,
+				74D55B6E2D2DCCF500C841AD /* Book.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			files = (
 				74D55B4B2D2D76E800C841AD /* ContentView.swift in Sources */,
 				74D55B642D2DB79D00C841AD /* AreaChartView.swift in Sources */,
+				74D55B6F2D2DCCF500C841AD /* Book.swift in Sources */,
 				74D55B6B2D2DCA0500C841AD /* BookCatagory.swift in Sources */,
 				74D55B492D2D76E800C841AD /* SwiftChartsAndGraphsApp.swift in Sources */,
 				74D55B602D2D8E8D00C841AD /* PetData.swift in Sources */,

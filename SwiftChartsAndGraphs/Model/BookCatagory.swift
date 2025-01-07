@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum BookCatagory: Identifiable, CaseIterable {
+enum BookCategory: Identifiable, CaseIterable {
    
     case fiction
     case biography
