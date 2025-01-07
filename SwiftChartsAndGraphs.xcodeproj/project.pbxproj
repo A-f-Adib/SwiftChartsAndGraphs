@@ -16,6 +16,7 @@
 		74D55B5C2D2D8B2700C841AD /* BarChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D55B5B2D2D8B2700C841AD /* BarChartsView.swift */; };
 		74D55B5E2D2D8DF500C841AD /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D55B5D2D2D8DF400C841AD /* LineChartView.swift */; };
 		74D55B602D2D8E8D00C841AD /* PetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D55B5F2D2D8E8D00C841AD /* PetData.swift */; };
+		74D55B622D2D92FC00C841AD /* PointChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D55B612D2D92FC00C841AD /* PointChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		74D55B5B2D2D8B2700C841AD /* BarChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartsView.swift; sourceTree = "<group>"; };
 		74D55B5D2D2D8DF400C841AD /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
 		74D55B5F2D2D8E8D00C841AD /* PetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetData.swift; sourceTree = "<group>"; };
+		74D55B612D2D92FC00C841AD /* PointChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				74D55B592D2D7DDB00C841AD /* DynamicChartView.swift */,
 				74D55B5B2D2D8B2700C841AD /* BarChartsView.swift */,
 				74D55B5D2D2D8DF400C841AD /* LineChartView.swift */,
+				74D55B612D2D92FC00C841AD /* PointChartView.swift */,
 				74D55B5F2D2D8E8D00C841AD /* PetData.swift */,
 			);
 			path = Basics;
@@ -166,6 +169,7 @@
 				74D55B5C2D2D8B2700C841AD /* BarChartsView.swift in Sources */,
 				74D55B582D2D774800C841AD /* StaticChartView.swift in Sources */,
 				74D55B5A2D2D7DDC00C841AD /* DynamicChartView.swift in Sources */,
+				74D55B622D2D92FC00C841AD /* PointChartView.swift in Sources */,
 				74D55B5E2D2D8DF500C841AD /* LineChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
