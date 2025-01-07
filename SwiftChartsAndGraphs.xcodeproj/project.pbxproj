@@ -20,6 +20,8 @@
 		74D55B642D2DB79D00C841AD /* AreaChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D55B632D2DB79D00C841AD /* AreaChartView.swift */; };
 		74D55B662D2DB92800C841AD /* RectangleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D55B652D2DB92800C841AD /* RectangleChartView.swift */; };
 		74D55B682D2DBC0E00C841AD /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D55B672D2DBC0E00C841AD /* PieChartView.swift */; };
+		74D55B6B2D2DCA0500C841AD /* BookCatagory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D55B6A2D2DCA0500C841AD /* BookCatagory.swift */; };
+		74D55B6D2D2DCB2F00C841AD /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D55B6C2D2DCB2F00C841AD /* Author.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		74D55B632D2DB79D00C841AD /* AreaChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaChartView.swift; sourceTree = "<group>"; };
 		74D55B652D2DB92800C841AD /* RectangleChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleChartView.swift; sourceTree = "<group>"; };
 		74D55B672D2DBC0E00C841AD /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		74D55B6A2D2DCA0500C841AD /* BookCatagory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCatagory.swift; sourceTree = "<group>"; };
+		74D55B6C2D2DCB2F00C841AD /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 			children = (
 				74D55B482D2D76E800C841AD /* SwiftChartsAndGraphsApp.swift */,
 				74D55B4A2D2D76E800C841AD /* ContentView.swift */,
+				74D55B692D2DC9C200C841AD /* Model */,
 				74D55B562D2D771800C841AD /* Basics */,
 				74D55B4C2D2D76F300C841AD /* Assets.xcassets */,
 				74D55B4E2D2D76F300C841AD /* Preview Content */,
@@ -100,6 +105,15 @@
 				74D55B5F2D2D8E8D00C841AD /* PetData.swift */,
 			);
 			path = Basics;
+			sourceTree = "<group>";
+		};
+		74D55B692D2DC9C200C841AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				74D55B6A2D2DCA0500C841AD /* BookCatagory.swift */,
+				74D55B6C2D2DCB2F00C841AD /* Author.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,12 +188,14 @@
 			files = (
 				74D55B4B2D2D76E800C841AD /* ContentView.swift in Sources */,
 				74D55B642D2DB79D00C841AD /* AreaChartView.swift in Sources */,
+				74D55B6B2D2DCA0500C841AD /* BookCatagory.swift in Sources */,
 				74D55B492D2D76E800C841AD /* SwiftChartsAndGraphsApp.swift in Sources */,
 				74D55B602D2D8E8D00C841AD /* PetData.swift in Sources */,
 				74D55B682D2DBC0E00C841AD /* PieChartView.swift in Sources */,
 				74D55B5C2D2D8B2700C841AD /* BarChartsView.swift in Sources */,
 				74D55B662D2DB92800C841AD /* RectangleChartView.swift in Sources */,
 				74D55B582D2D774800C841AD /* StaticChartView.swift in Sources */,
+				74D55B6D2D2DCB2F00C841AD /* Author.swift in Sources */,
 				74D55B5A2D2D7DDC00C841AD /* DynamicChartView.swift in Sources */,
 				74D55B622D2D92FC00C841AD /* PointChartView.swift in Sources */,
 				74D55B5E2D2D8DF500C841AD /* LineChartView.swift in Sources */,
@@ -330,6 +346,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = SwiftfulThinking.SwiftChartsAndGraphs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -358,6 +375,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = SwiftfulThinking.SwiftChartsAndGraphs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
