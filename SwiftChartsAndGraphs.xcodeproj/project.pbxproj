@@ -17,6 +17,7 @@
 		74D55B5E2D2D8DF500C841AD /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D55B5D2D2D8DF400C841AD /* LineChartView.swift */; };
 		74D55B602D2D8E8D00C841AD /* PetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D55B5F2D2D8E8D00C841AD /* PetData.swift */; };
 		74D55B622D2D92FC00C841AD /* PointChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D55B612D2D92FC00C841AD /* PointChartView.swift */; };
+		74D55B642D2DB79D00C841AD /* AreaChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D55B632D2DB79D00C841AD /* AreaChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		74D55B5D2D2D8DF400C841AD /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
 		74D55B5F2D2D8E8D00C841AD /* PetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetData.swift; sourceTree = "<group>"; };
 		74D55B612D2D92FC00C841AD /* PointChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointChartView.swift; sourceTree = "<group>"; };
+		74D55B632D2DB79D00C841AD /* AreaChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				74D55B5B2D2D8B2700C841AD /* BarChartsView.swift */,
 				74D55B5D2D2D8DF400C841AD /* LineChartView.swift */,
 				74D55B612D2D92FC00C841AD /* PointChartView.swift */,
+				74D55B632D2DB79D00C841AD /* AreaChartView.swift */,
 				74D55B5F2D2D8E8D00C841AD /* PetData.swift */,
 			);
 			path = Basics;
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74D55B4B2D2D76E800C841AD /* ContentView.swift in Sources */,
+				74D55B642D2DB79D00C841AD /* AreaChartView.swift in Sources */,
 				74D55B492D2D76E800C841AD /* SwiftChartsAndGraphsApp.swift in Sources */,
 				74D55B602D2D8E8D00C841AD /* PetData.swift in Sources */,
 				74D55B5C2D2D8B2700C841AD /* BarChartsView.swift in Sources */,
