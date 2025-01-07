@@ -13,6 +13,7 @@
 		74D55B502D2D76F300C841AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D55B4F2D2D76F300C841AD /* Preview Assets.xcassets */; };
 		74D55B582D2D774800C841AD /* StaticChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D55B572D2D774800C841AD /* StaticChartView.swift */; };
 		74D55B5A2D2D7DDC00C841AD /* DynamicChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D55B592D2D7DDB00C841AD /* DynamicChartView.swift */; };
+		74D55B5C2D2D8B2700C841AD /* BarChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D55B5B2D2D8B2700C841AD /* BarChartsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		74D55B4F2D2D76F300C841AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		74D55B572D2D774800C841AD /* StaticChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticChartView.swift; sourceTree = "<group>"; };
 		74D55B592D2D7DDB00C841AD /* DynamicChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicChartView.swift; sourceTree = "<group>"; };
+		74D55B5B2D2D8B2700C841AD /* BarChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				74D55B572D2D774800C841AD /* StaticChartView.swift */,
 				74D55B592D2D7DDB00C841AD /* DynamicChartView.swift */,
+				74D55B5B2D2D8B2700C841AD /* BarChartsView.swift */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			files = (
 				74D55B4B2D2D76E800C841AD /* ContentView.swift in Sources */,
 				74D55B492D2D76E800C841AD /* SwiftChartsAndGraphsApp.swift in Sources */,
+				74D55B5C2D2D8B2700C841AD /* BarChartsView.swift in Sources */,
 				74D55B582D2D774800C841AD /* StaticChartView.swift in Sources */,
 				74D55B5A2D2D7DDC00C841AD /* DynamicChartView.swift in Sources */,
 			);
