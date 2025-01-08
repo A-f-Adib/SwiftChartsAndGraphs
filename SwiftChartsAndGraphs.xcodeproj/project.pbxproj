@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		74D556072D2F0FEB00AD6319 /* Sale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D556062D2F0FEB00AD6319 /* Sale.swift */; };
 		74D556092D2F164500AD6319 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D556082D2F164500AD6319 /* Expense.swift */; };
+		74D5560C2D2F1FA800AD6319 /* SalesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D5560B2D2F1FA800AD6319 /* SalesViewModel.swift */; };
 		74D55B492D2D76E800C841AD /* SwiftChartsAndGraphsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D55B482D2D76E800C841AD /* SwiftChartsAndGraphsApp.swift */; };
 		74D55B4B2D2D76E800C841AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D55B4A2D2D76E800C841AD /* ContentView.swift */; };
 		74D55B4D2D2D76F300C841AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D55B4C2D2D76F300C841AD /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		74D556062D2F0FEB00AD6319 /* Sale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sale.swift; sourceTree = "<group>"; };
 		74D556082D2F164500AD6319 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		74D5560B2D2F1FA800AD6319 /* SalesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesViewModel.swift; sourceTree = "<group>"; };
 		74D55B452D2D76E800C841AD /* SwiftChartsAndGraphs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftChartsAndGraphs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D55B482D2D76E800C841AD /* SwiftChartsAndGraphsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftChartsAndGraphsApp.swift; sourceTree = "<group>"; };
 		74D55B4A2D2D76E800C841AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74D5560A2D2F1F8B00AD6319 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				74D5560B2D2F1FA800AD6319 /* SalesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		74D55B3C2D2D76E800C841AD = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +91,7 @@
 			children = (
 				74D55B482D2D76E800C841AD /* SwiftChartsAndGraphsApp.swift */,
 				74D55B4A2D2D76E800C841AD /* ContentView.swift */,
+				74D5560A2D2F1F8B00AD6319 /* ViewModel */,
 				74D55B692D2DC9C200C841AD /* Model */,
 				74D55B562D2D771800C841AD /* Basics */,
 				74D55B4C2D2D76F300C841AD /* Assets.xcassets */,
@@ -206,6 +217,7 @@
 				74D55B5C2D2D8B2700C841AD /* BarChartsView.swift in Sources */,
 				74D55B662D2DB92800C841AD /* RectangleChartView.swift in Sources */,
 				74D55B582D2D774800C841AD /* StaticChartView.swift in Sources */,
+				74D5560C2D2F1FA800AD6319 /* SalesViewModel.swift in Sources */,
 				74D55B6D2D2DCB2F00C841AD /* Author.swift in Sources */,
 				74D55B5A2D2D7DDC00C841AD /* DynamicChartView.swift in Sources */,
 				74D55B622D2D92FC00C841AD /* PointChartView.swift in Sources */,
