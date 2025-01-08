@@ -28,6 +28,27 @@ struct Expense: Identifiable {
             Expense(title: "Maintenance", category: .fixed, amount: 500, expenseDate: Date(timeIntervalSinceNow: -43_200_000)),
             Expense(title: "Equipment", category: .variable, amount: 1500, expenseDate: Date(timeIntervalSinceNow: -50_400_000))
         ]
+    
+    static var yearExamples: [Expense] = {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy/MM/dd"
+        var expenses = [Expense]()
+        
+        for month in 1...12 {
+            for _ in 1...10 {
+                let randomDay = Int.random(in: 1...28)
+                let date = formatter.date(from: "2025/\(month)/\(randomDay)")!
+                let category: ExpenseCategory = Bool.random() ? .fixed : .variable
+                let title = category == .fixed ? "Rent" : "Supplies"
+                let amount: Double = category == .fixed ? 2000 : Double.random(in: 100...500)
+                expenses.append(Expense(title: title,
+                                        category: category,
+                                        amount: amount,
+                                        expenseDate: date))
+            }
+        }
+        return expenses
+    }()
 }
 
 
