@@ -21,7 +21,24 @@ struct Address : Codable {
 
 struct CodableData: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        Button("Decode json") {
+            let input = """
+                {
+                  "name" : "Taylor swift",
+                  "address" : {
+                            "City" : "111, New York ",
+                            "Country" : "USA"
+                   }
+                }
+                """
+            let data = Data(input.utf8)
+            let decoder = JSONDecoder()
+            
+            if let user = try? decoder.decode(User.self, from: data) {
+                print(user.address.City)
+            }
+        }
     }
 }
 
