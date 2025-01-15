@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74AA5AC62D3827B60053867D /* CodableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA5AC52D3827B60053867D /* CodableData.swift */; };
 		74D556072D2F0FEB00AD6319 /* Sale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D556062D2F0FEB00AD6319 /* Sale.swift */; };
 		74D556092D2F164500AD6319 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D556082D2F164500AD6319 /* Expense.swift */; };
 		74D5560C2D2F1FA800AD6319 /* SalesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D5560B2D2F1FA800AD6319 /* SalesViewModel.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		74AA5AC52D3827B60053867D /* CodableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableData.swift; sourceTree = "<group>"; };
 		74D556062D2F0FEB00AD6319 /* Sale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sale.swift; sourceTree = "<group>"; };
 		74D556082D2F164500AD6319 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 		74D5560B2D2F1FA800AD6319 /* SalesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesViewModel.swift; sourceTree = "<group>"; };
@@ -64,6 +66,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74AA5AC42D3827720053867D /* Fundamentals */ = {
+			isa = PBXGroup;
+			children = (
+				74AA5AC52D3827B60053867D /* CodableData.swift */,
+			);
+			path = Fundamentals;
+			sourceTree = "<group>";
+		};
 		74D5560A2D2F1F8B00AD6319 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +119,7 @@
 			children = (
 				74D55B482D2D76E800C841AD /* SwiftChartsAndGraphsApp.swift */,
 				74D55B4A2D2D76E800C841AD /* ContentView.swift */,
+				74AA5AC42D3827720053867D /* Fundamentals */,
 				74D5560D2D2F225600AD6319 /* View */,
 				74D5560A2D2F1F8B00AD6319 /* ViewModel */,
 				74D55B692D2DC9C200C841AD /* Model */,
@@ -243,6 +254,7 @@
 				74D55B622D2D92FC00C841AD /* PointChartView.swift in Sources */,
 				74D556072D2F0FEB00AD6319 /* Sale.swift in Sources */,
 				74D55B5E2D2D8DF500C841AD /* LineChartView.swift in Sources */,
+				74AA5AC62D3827B60053867D /* CodableData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
