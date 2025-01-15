@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		74AA5AC62D3827B60053867D /* CodableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA5AC52D3827B60053867D /* CodableData.swift */; };
+		74AA5AC82D3828C90053867D /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA5AC72D3828C90053867D /* AsyncImage.swift */; };
 		74D556072D2F0FEB00AD6319 /* Sale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D556062D2F0FEB00AD6319 /* Sale.swift */; };
 		74D556092D2F164500AD6319 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D556082D2F164500AD6319 /* Expense.swift */; };
 		74D5560C2D2F1FA800AD6319 /* SalesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D5560B2D2F1FA800AD6319 /* SalesViewModel.swift */; };
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		74AA5AC52D3827B60053867D /* CodableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableData.swift; sourceTree = "<group>"; };
+		74AA5AC72D3828C90053867D /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
 		74D556062D2F0FEB00AD6319 /* Sale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sale.swift; sourceTree = "<group>"; };
 		74D556082D2F164500AD6319 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 		74D5560B2D2F1FA800AD6319 /* SalesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesViewModel.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				74AA5AC52D3827B60053867D /* CodableData.swift */,
+				74AA5AC72D3828C90053867D /* AsyncImage.swift */,
 			);
 			path = Fundamentals;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74AA5AC82D3828C90053867D /* AsyncImage.swift in Sources */,
 				74D556092D2F164500AD6319 /* Expense.swift in Sources */,
 				74D55B4B2D2D76E800C841AD /* ContentView.swift in Sources */,
 				74D556102D2F22AC00AD6319 /* DailySalesChartView.swift in Sources */,
