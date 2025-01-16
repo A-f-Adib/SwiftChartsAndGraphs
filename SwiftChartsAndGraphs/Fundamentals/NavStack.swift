@@ -9,9 +9,22 @@ import SwiftUI
 
 struct NavStack: View {
     
+    @State private var stackPath: [String] = []
+    
     var body: some View {
-        
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack(path: $stackPath) {
+            ScrollView {
+                VStack(spacing: 40) {
+                    Button(" Nav Button") {
+                        stackPath.append(contentsOf: ["Coconut", "Mango", "Banana"])
+                    }
+                }
+            }
+            .navigationTitle("NavigationStack")
+            .navigationDestination(for: String.self) { value in
+                Text("Another Screen of: \(value)")
+            }
+        }
     }
 }
 
