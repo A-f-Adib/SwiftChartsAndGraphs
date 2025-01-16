@@ -18,6 +18,24 @@ struct ButtonStyles: View {
                 .frame(maxWidth: .infinity)
                 .buttonStyle(.plain)
                 .controlSize(.small)
+            
+            Button("Button styles") { }
+            .frame(height: 55)
+            .frame(maxWidth: .infinity)
+            .buttonStyle(.bordered)
+            .controlSize(.regular)
+            
+            Button("Button styles") { }
+            .frame(height: 55)
+            .frame(maxWidth: .infinity)
+            .buttonStyle(.borderless)
+            .controlSize(.large)
+            
+            Button("Button styles") { }
+            .frame(height: 55)
+            .frame(maxWidth: .infinity)
+            .buttonStyle(.borderedProminent)
+            .controlSize(.mini)
         }
     }
 }
