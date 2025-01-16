@@ -12,6 +12,7 @@
 		74AA5ACA2D38294C0053867D /* BgMaterials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA5AC92D38294C0053867D /* BgMaterials.swift */; };
 		74CFE5282D3971300065279A /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CFE5272D3971300065279A /* ButtonStyles.swift */; };
 		74CFE52A2D3972200065279A /* BadgesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CFE5292D3972200065279A /* BadgesView.swift */; };
+		74CFE52C2D3973980065279A /* NavStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CFE52B2D3973980065279A /* NavStack.swift */; };
 		74D556072D2F0FEB00AD6319 /* Sale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D556062D2F0FEB00AD6319 /* Sale.swift */; };
 		74D556092D2F164500AD6319 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D556082D2F164500AD6319 /* Expense.swift */; };
 		74D5560C2D2F1FA800AD6319 /* SalesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D5560B2D2F1FA800AD6319 /* SalesViewModel.swift */; };
@@ -40,6 +41,7 @@
 		74AA5AC92D38294C0053867D /* BgMaterials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BgMaterials.swift; sourceTree = "<group>"; };
 		74CFE5272D3971300065279A /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
 		74CFE5292D3972200065279A /* BadgesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesView.swift; sourceTree = "<group>"; };
+		74CFE52B2D3973980065279A /* NavStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavStack.swift; sourceTree = "<group>"; };
 		74D556062D2F0FEB00AD6319 /* Sale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sale.swift; sourceTree = "<group>"; };
 		74D556082D2F164500AD6319 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 		74D5560B2D2F1FA800AD6319 /* SalesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesViewModel.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				74AA5AC92D38294C0053867D /* BgMaterials.swift */,
 				74CFE5272D3971300065279A /* ButtonStyles.swift */,
 				74CFE5292D3972200065279A /* BadgesView.swift */,
+				74CFE52B2D3973980065279A /* NavStack.swift */,
 			);
 			path = Fundamentals;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				74D55B6D2D2DCB2F00C841AD /* Author.swift in Sources */,
 				74D55B5A2D2D7DDC00C841AD /* DynamicChartView.swift in Sources */,
 				74D55B622D2D92FC00C841AD /* PointChartView.swift in Sources */,
+				74CFE52C2D3973980065279A /* NavStack.swift in Sources */,
 				74D556072D2F0FEB00AD6319 /* Sale.swift in Sources */,
 				74D55B5E2D2D8DF500C841AD /* LineChartView.swift in Sources */,
 				74AA5AC62D3827B60053867D /* CodableData.swift in Sources */,
